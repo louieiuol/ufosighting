@@ -11775,7 +11775,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="UFO-Sightings-Through-the-Data-Science-Pipeline">UFO Sightings Through the Data Science Pipeline<a class="anchor-link" href="#UFO-Sightings-Through-the-Data-Science-Pipeline">&#182;</a></h1><p>By Melissa(Shiqi) Chen  |   Andrea Soto       |      Liu Guanhua</p>
+<h1 id="UFO-Sightings-Through-the-Data-Science-Pipeline">UFO Sightings Through the Data Science Pipeline<a class="anchor-link" href="#UFO-Sightings-Through-the-Data-Science-Pipeline">&#182;</a></h1><p>By Melissa(Shiqi) Chen  ,   Andrea Soto      and     Liu Guanhua</p>
 <h2 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">&#182;</a></h2><p>Most of us do not realize that data science plays a role in various aspects of our daily lives. For example, data sience can have applications in the areas of marketing and advertising, healthcare, government, image recognition, cybersecuirty and many more. Data science is a rapidly rising, interdisciplinary field that involves an understanding of various scientific, mathematical, computational and design techniques in order to extract insight from large amounts of data to solve real world problems. More and more industries are noticing the importance of this field for making smart, informed, and even profitable everyday decisions. Since there is an increasing need for knowledgeable and able data scientists, it is important for more people to acquire the necessary skills so that they can confidently enter this exciting and growing field.</p>
 <p>In this introductory tutorial we will choose a dataset and walk through the steps of the data science pipeline in manner that is easy to understand and follow. The pipeline consists of the following steps:</p>
 <ol>
@@ -11831,8 +11831,8 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">##pip install folium</span>
-<span class="c1">##pip install wordcloud</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>pip install folium
+<span class="o">!</span>pip install wordcloud
 <span class="kn">import</span> <span class="nn">folium</span>
 <span class="kn">import</span> <span class="nn">requests</span>
 <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span> 
@@ -12570,7 +12570,7 @@ UHgAAICQofAAAAAhQ+EBAABChsIDAACEzP8DtqVB9I5iZMQAAAAASUVORK5CYII=
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>From the correlation matrix, we can see that there is a strong relationship between datetime_month and datetime_year and a mildly strong relationship between counts and datetime_month.</p>
+<p>From the correlation matrix, we can see that there is some relationship between hour in a day and the number of sightings, and the year and number of sightings. It doesnt seem to have any corrolation between month and the mumber of sightings, due to the way we group our data. We are going to look at the data more closely in the line graphs session.</p>
 
 </div>
 </div>
